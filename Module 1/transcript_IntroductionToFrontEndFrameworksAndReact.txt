@@ -1,0 +1,65 @@
+[MUSIC] Welcome to Introduction to
+Front-end Frameworks and React. After watching this video, you will be
+able to compare libraries and frameworks, define front-end frameworks,
+describe React's prominent features. Nowadays, developers are widely adopting
+React to build modern web applications, but before exploring the concept of React, you should first understand the
+fundamentals of libraries and frameworks. You will use libraries and frameworks
+frequently in software development, each serving unique roles and purposes. Let's discuss each of them. A library is a repository of prewritten
+code segments that provide reusable functions and routines for utilization
+by other programs or applications. These libraries often target
+specific tasks or functionalities, allowing developers to integrate them
+into their codebase as required. Examples of JavaScript
+libraries include jQuery, Lodash, D3.js, and React. A framework is a comprehensive software
+development platform that provides the foundation and structure for
+building entire applications. Unlike libraries that offer
+specific functionalities, frameworks impose a particular
+architecture and provide tools, libraries, and guidelines to
+streamline the development process. Frameworks address broader concerns,
+including handling user requests, managing data flow, and structuring
+the application's overall architecture. Some popular examples of JavaScript
+frameworks include AngularJS, Ember JS, Svelte, and Vue.js. When it comes to web development,
+specifically, a specialized type of framework emerges,
+the front-end framework. These frameworks focus on building
+the user-facing side of web applications. Front-end frameworks leverage
+technologies like HTML, CSS, and JavaScript to create dynamic and
+interactive user interfaces, UIs that communicate with
+the server behind the scenes. A few popular front-end frameworks
+are React, AngularJS, and Vue.js. React is an open-source JavaScript
+library developed by Meta, a company that runs Facebook and
+Instagram. It facilitates the creation of dynamic and
+interactive user interfaces for web applications. The prominent features of React
+include component-based architecture, declarative syntax, Virtual DOM,
+One-way data binding, JavaScript XML (JSX), and hook employment. React's flexible component-based
+architecture enables the creation of reusable UI elements. In React, developers build UIs by
+composing independent components representing a specific web page feature. For example, developers can divide
+a website with headers, left and right sidebars, or footers. This modular approach allows developers
+to encapsulate UI functionality in individual files,
+making it easy to reuse components across multiple pages
+without duplicating the code. React uses a declarative syntax that
+updates how the UI should behave when data or states change. This declarative paradigm lets developers
+focus only on specifying the intended UI behavior, while React efficiently
+manages the underlying DOM. In essence, developers instruct React
+on what to do rather than how to do it. React also utilizes a virtual DOM
+instead of direct manipulation. React generates virtual DOM copies when
+changes occur in any component and then compares them with the real DOM,
+updating only the essential segments. This strategy optimizes performance and improves speed by minimizing
+unnecessary DOM modifications. Next, React implements
+one-way data binding, ensuring data flows unidirectionally
+from parent to child components. This approach simplifies data management, reducing the risk of bugs caused
+by an inconsistent state. React also utilizes JSX, JavaScript XML, a JavaScript syntax extension enabling
+HTML-like code within JavaScript. JSX makes creating and
+visualizing UI components easier, seamlessly integrating HTML and
+JavaScript. React employs hooks,
+a feature introduced in React 16.8. Hooks allow developers to handle states
+and other React features seamlessly, eliminating the need for
+class-based coding. Hooks simplify component logic,
+promote code reuse, and make it easier to manage
+stateful behavior. In this video, you learned that libraries
+offer reusable code components, while frameworks provide a comprehensive
+structure for building applications. Front-end frameworks focus on building
+the user-facing side of web applications. React is an open-source JavaScript library
+developed by Facebook that facilitates the creation of dynamic and interactive
+user interfaces for web applications. React features include
+component-based architecture, declarative syntax, virtual DOM
+optimization, one-way data binding, JSX integration, and
+React hooks employment. [MUSIC]

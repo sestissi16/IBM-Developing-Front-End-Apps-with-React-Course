@@ -1,0 +1,62 @@
+[MUSIC] Welcome to a video on the React structure. After watching this video, you will be able describe the vite
+build tool to create React projects, list the steps to create a React project, list the directories and
+files in a React folder structure. You can create a React project using
+the CRA tool as shown in the code. This code will also install some files and
+folders you may not require for the project. As a result,
+this tool can lead to a large file size. React officials have now
+come up with a new tool. Vite. Vite is a build tool that is
+an improved development tool for front-end projects in the current web development scenario.
+You can use it with React, Angular, or plain JavaScript, as well as any
+new JavaScript library or system. Vite is a tool that speeds up the building
+and development of web projects by making optimum use of how current
+browsers handle JavaScript modules. The handling is done by bundling code only
+when required, which speeds up time for programming and building. To create a project with the Vite tool,
+use the following steps. One, write npm create command in
+the terminal of your code editor. Two, give the project name. A list of frameworks will be displayed,
+select React using arrow keys. Three, next, select JavaScript as the scripting
+language in which you want to work with. A folder will be created
+with the given project name. Four, the terminal will give you the
+following instructions to start working on your project. cd learning_react will navigate you to the
+precise location of your React project. npm install will install
+all essential files and packages needed to run the React project. npm run dev initiates
+the React application, facilitating its rendering
+within a web browser. Five, the link and
+port number will be displayed, using which your React application
+can be opened in any browser. Six, the command npm run dev will
+display the output as shown. Now let's understand
+the folder structure of React. Navigate inside the React project from
+the Explorer section of your code editor, which will show this structure. After creating a React project with Vite, the folder structure consists of
+the following directories and files. The node_modules directory contains
+all the dependencies installed through NPM or Yarn. The public directory contains static
+assets like HTML files, images, and fonts. The HTML file serves as the entry
+point for the React application. The src directory contains the source
+code for the react application. Inside the SRC folder,
+you will have App.jsx, App.css, main.jsx, and index.css files. main.jsx is the entry point for
+the React application. It renders the root component into the
+HTML file located in the public directory. App.jsx represents the root
+component of the React application. It may contain other components and
+logic to compose the UI. This will contain the boilerplate
+template for React. The other files in
+the structure are as follows. package.json contains metadata
+about the project and dependencies. It also includes scripts for running,
+building, and testing the application. vite.config.js contains
+configuration settings for the Vite build tool,
+such as customizing the build process, specifying plug-ins, and
+configuring development server options. .gitignore specifies which files and directories should be ignored
+by Git version control. README.md file provides information about
+the project, including setup instructions, usage guidelines, and
+project documentation. index.html is a fundamental part
+of web development projects, serving as the entry point for
+web applications. The eslintrc.cjs file is
+a configuration file used by ESLint, which is a popular linting tool for
+JavaScript. The .cjs extension indicates
+that it is a CommonJS module, which means it follows the CommonJS
+module format for Node.js applications. Now, you can start building the application
+by creating more folders and files. In this video, you learned that Vite
+is a build tool, which is an improved development tool for front-end projects
+in the current web development scenario. Vite handles JavaScript modules by
+bundling code only when it's required, which speeds up time for
+programming and building. After creating a React project with Vite,
+the folder structure consists of many directories and
+files, like node modules, public, src, main.jsx, App.jsx,
+package.json, and so on. [MUSIC]
