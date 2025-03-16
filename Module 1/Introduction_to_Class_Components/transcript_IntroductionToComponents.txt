@@ -1,0 +1,55 @@
+Welcome to Introduction
+to Components. After watching this video, you will be able to explain
+what React components are, describe the features
+of React components, compare and contrast the
+three types of components, and create a Hello
+World React component. You create React
+applications with modular chunks of code
+called components. Components are the
+building blocks of React applications
+and make building complex user interfaces easier by breaking down the UI
+into individual pieces. Then you merge them into a parent component that forms what the user sees
+and interacts with. React components
+enable you to break up the user interface into
+separate elements. These can then be reused
+and handled independently. A React component takes on optional input and
+returns a React object, which is rendered on the screen. The React component renders
+pieces of the web page. You develop the components
+code so it knows how to behave and update when
+the user interacts with it. This modification
+of the component is called a state change. You also manage events such as selecting a button
+with a component state. A component is composed
+of three aspects: properties,
+events, and states. You use a component's
+properties to store and pass data from a parent
+to a child component. Events manage the
+document object model, DOM, as a result of the user's interaction
+with the system. You use a component
+state to update the UI. React has three
+types of components: class, functional,
+and higher-order. Functional components are written like
+JavaScript functions. They can take arguments
+and return JSX. Before React version 16.8, functional components
+were stateless. You can now use function
+components with states as of the introduction of
+hooks in version 16.8. Developers generally now prefer function components because they are relatively easy
+to read and test. This code example shows a simple functional
+component in React. In the code, the function Democomponent returns the
+phrase Welcome Message as JSX. You can use JavaScript
+ES6 classes to create class-based
+components in React. You can pass data from
+one class component to another class component. They use the main React
+functions such as state, props, and lifecycle methods. After the introduction of
+hooks in version 16.8, developers tend to
+prefer functional over class components because class components
+are more complex. A higher-order component, HOC, allows you to reuse
+component logic. You can compose
+components together by taking a component as an
+argument to another component. It renders the
+parameter component along with additional features. In this video, you
+learned that you create React applications with modular code called components. Components break up the
+user interface into separate parts that you can reuse and handle independently. A React component renders
+the initial user interface, manages and handles events, updates the user interface
+according to its state. The three types of React
+components include functional, class
+and higher-order.
