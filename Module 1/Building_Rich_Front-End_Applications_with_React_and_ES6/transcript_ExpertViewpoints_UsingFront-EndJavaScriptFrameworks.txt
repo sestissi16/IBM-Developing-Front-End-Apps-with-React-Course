@@ -1,0 +1,22 @@
+Welcome to Expert Viewpoints: Using
+Front-end JavaScript Frameworks. In this video, we will listen to several
+application-development professionals discuss working with front-end JavaScript frameworks. So, which front-end JavaScript framework(s) do you use? And why you do prefer those over other options? My favorite front-end JavaScript framework would
+be React.js. I love the whole component-driven design and architecture that you have to follow
+when you create a React.js-based application. I also like the idea of props and
+states to hold the state of your application. Believe it or not, I also like the concept of having all of my style,
+my HTML, or JSX for a component in the same file. It makes it really easy to work with
+components by themselves and then at the end plug these different
+components together to create my application. We use React JavaScript framework.
+It is better than Angular in terms of speed and efficiency. React is easier to learn than other JavaScript frameworks,
+which makes its adoption in the team easy. It also resolves the problems
+related to cross-browser issues. Another great feature of React is the use of JSX. JSX is helpful when working with UI inside the JavaScript code. It helps React to show
+more useful error and warning messages. So, among the front-end
+JavaScript frameworks, I prefer Vue. I just find it friendlier. I like the documentation. However, React has a big community. And the documentation
+is very extensive. And it makes sense. And another benefit of React is that there's React Native. So if you're really comfortable with writing React,
+you can repurpose that code to be a mobile application that's cross-platform compatible,
+which is a huge benefit. And if you're writing your application in Vue, then there are
+some ways to make that a web application, like by using a progressive web app. But, React Native, out of those three,
+(Angular, React and Vue), is by far is the easiest crossover to
+get into native app development. Angular, it just seems more verbose. I never really got into it,
+except for some student projects. And fortunately, I've never had to go into it
+any deeper than just editing existing code.

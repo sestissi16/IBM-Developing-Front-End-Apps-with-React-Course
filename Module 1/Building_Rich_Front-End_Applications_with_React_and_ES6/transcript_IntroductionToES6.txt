@@ -1,0 +1,109 @@
+Welcome to Introduction to ES6. After watching this video, you will be able to
+define ECMAScript6, also known as ES6, and describe how to use new
+features that have been added to JavaScript
+as part of ES6. ES is short for ECMAScript. ECMA is a standards organization that creates a wide range of global information and communications
+technology standards. JavaScript adheres to
+ECMA specification ES6, which came out in 2015. The newer versions of ES are named after the
+year of release. The most recent is
+ECMAScript 2020. ES.Next is a dynamic
+name used to refer to the forthcoming
+version of ECMAScript. ES6 is a version with changes
+that had a major impact. In JavaScript, the
+main changes are let, const, arrow functions,
+promises, and class. You are familiar with
+using variables or vars. A var has a global scope. Once declared, a var can be used or referred from
+anywhere in the code. This is challenging,
+especially with huge projects where you have
+many variables to maintain. In ES6, you use let and
+const in addition to var. Let allows you to
+restrict the scope of variables within the block
+where they were declared. This limited scope is
+called local scope. In this example, num has
+scope just within that block. Line 7 will throw an error
+as num is out of scope. Const allows you to declare constants whose values
+cannot be changed. Line 3 throws an
+error because num is defined as a constant
+whose value is five. You can use both let and
+const in React programming. Arrow functions
+allow you to declare functions the same way that
+you declare variables. Using this syntax is a shorter and cleaner way
+to work with functions. What you see here is
+how a function was written in the older
+ES5 JavaScript. Below, you can see how
+it is written in ES6. A function can also
+be declared with let and const just
+like a variable. This function does not take any parameters and has
+only one statement. Notice that there are
+no curly brackets. Arrow functions are called
+like normal functions. They can also be passed as
+parameters for callbacks. Here, the arrow function, sayHello is passed as a callback
+parameter to setTimeout. Arrow functions also take parameters like
+normal functions. They can return a data
+type or an object. Here you can see a function
+that takes one parameter. The function brackets
+are not mandatory. There is only one line of code, but because the code
+returns a value, it must be in curly brackets. This is a function that
+takes two parameters. The function brackets must be put around the parameters list. This function also has just one line of code
+and returns nothing, so it does not need
+curly brackets. This is a function that takes two parameters and
+returns one value, and this is a
+function that takes two parameters and has
+two lines of code. The promise object represents
+the eventual completion of an asynchronous operation
+and its return value. When you invoke an
+asynchronous operation, a promise is in a pending state. When the operation
+executes successfully, the promise is said
+to be fulfilled. When the operation fails, the promise is said
+to be rejected. In the first example, you have an arrow function
+promise argument, which takes two parameters,
+resolve and reject. If the current time in
+milliseconds is divisible by two, this arrow function invokes resolve with success
+as a parameter. If not, it invokes reject
+with failed as a parameter. This function is passed to the constructor of
+the promise object. In the second example, instead of creating
+promiseArgument, you are directly
+creating the function in time with the
+promise constructor. The behavior in both
+cases is identical. Object-oriented
+programming was made feasible in JavaScript with
+the introduction of class. Class is a template or
+blueprint for creating objects. Classes in JavaScript
+are built on prototypes. Prototype is a property of all JavaScript objects,
+including functions. A function can be used to
+create an object instance. Here, this refers to
+the current object, but not all object-oriented
+programming concepts are available with
+function prototypes. The concept of class was
+built on the premise of function prototype to extend object-oriented
+programming to JavaScript. Here, the first
+console log will print the entire prototype of
+the Person 1 object. The second console log
+will print the name, and the third console
+log will print the age. Class can have a constructor, which is a method that
+is called when you want to create an
+object of class. The body of the class is the part that is
+in curly brackets. Here, rectangle is
+the general class. All rectangles have
+some height and width, which are the properties. When you create a
+rectangle object, you pass the height and width as parameters to
+the constructor. My rectangle is an object constructed with the
+rectangle class. In this example, an object of the class can be created
+using the new keyword. The properties are set to
+the current object that is being created using
+this as the keyword. Rectangle is the blueprint. The keyword helps to set the properties for the
+myRectangle object. In JavaScript ES6, a class can inherit
+from another class. The superclass is the class being inherited by the subclass. The subclass inherits
+all the attributes and methods of the superclass. React components use inheritance to build
+user-defined components. The subclass has a
+special privilege to call the superclass constructor
+with the super method call. A square is a rectangle with the same value for
+width and height. Here, if the height is not the same as the width specified, the width will become
+equal to the height. In this video, you learned
+that new features that were introduced in JavaScript
+as part of ES6 are: let, const, arrow functions,
+promise, and class. You can create
+different types of arrow functions depending
+on the parameters, return values, and
+lines of code. Object-oriented
+programming was made feasible in JavaScript with
+the introduction of class.

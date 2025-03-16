@@ -1,0 +1,51 @@
+Welcome to Introduction to JSX. After watching this video, you will be able to explain
+the purpose of JSX, describe JSX syntax, explain why JSX needs compiled, summarize the benefits of JSX. Essentially, JSX combines
+JavaScript with HTML. JSX makes building user
+interfaces more conceptual. It reads similarly to HTML, yet also supports
+JavaScript expressions. JSX is short for JavaScript syntax extension and is also called JavaScript XML. The JSX syntax looks
+like XML or HTML, using elements enclosed
+in angle brackets to indicate how the elements
+appear on screen to the user. Let us look at some
+sample JSX code. The code shows a construct
+that displays the heading, This is a sample
+JSX code snippet. The code snippet
+looks like HTML, but note the
+JavaScript-like variable, which is neither HTML nor
+JavaScript, it is JSX. You use JSX syntax to
+create React elements. React then renders
+these elements to the document object
+model or DOM. Browsers don't understand JSX, so you need to use
+Babel to compile your JSX code and transform it into standard
+JavaScript objects. The JavaScript engine then
+parses these objects. Fortunately, you can use the command create-react-app
+to handle the compilation. Let's discuss some
+benefits of using JSX. To start with, people who
+don't know JavaScript or other programming
+languages can more readily understand
+and modify it. People who use markup
+languages such as HTML will find JSX more familiar
+than JavaScript alone. When you use a compiler
+to transform your JSX, you'll find errors earlier that might be difficult
+to spot otherwise. JSX helps keep codes simple and elegant with its use
+of inline styles. JSX outperforms
+JavaScript because it optimizes during the
+translation to JavaScript. Finally, JSX automatically handles
+output sanitation issues, such as converting
+expressions to strings, preventing attackers
+from embedding an executable script
+before rendering. Now, look at the code for a React component that uses JSX. Compare it to a regular
+JavaScript function call. This code creates a div
+element with a list of two items that display
+items number 1 and 2. The app function contains code that looks
+extremely similar to plain HTML and uses the
+same XML-based syntax. This example shows
+the previous code using JavaScript function calls. You can see how
+this code is more difficult to read and
+understand its logic, as well as ugly and
+difficult to maintain. JSX combines the beauty of HTML with the power
+of JavaScript. In this video, you learned that JSX reads similarly to HTML, JSX uses HTML elements combined with
+JavaScript expressions, JSX relies on
+compilers to transform HTML-like text into standard
+JavaScript objects. The benefits of using JSX
+include easily readable code, error identification, improved performance,
+added security.
