@@ -1,0 +1,93 @@
+[MUSIC] Welcome to a video on working with
+React class components, props, and event handling. After watching this video,
+you will be able define a class component describe how a class component works,
+describe how to manage the state in the React class component, describe
+how to use props in a class component in React, describe how to handle
+events in class components. A class component in React is
+a JavaScript class that extends the React.Component
+from the React library. Class components were the primary way
+of defining components in React before introducing hooks. They encapsulate UI components and their
+behavior into reusable building blocks. Class components are defined
+using ES6 class syntax. And they manage states,
+handle lifecycle events, and define component methods within the class. Let's look at a basic
+example of a class component. In the class component,
+you first write import statements, import React, component from React. This statement imports React and the
+component class from the React package. React is the core library for building
+UI components in React applications, and component is a base class from which
+React class components are created. Next, you declare the class and the class MyComponent extends
+component provided by React. This statement means MyComponent
+is now a React class component, inheriting all the functionality
+provided by the component class. Then, you use the render method
+within the MyComponent class. This method is required in every class
+component and is responsible for returning the JSX React elements that
+represent the UI of the component. In this case, it returns a div tag containing an h1
+element with the text "Hello, world!" JSX allows you to write HTML-like
+syntax directly within JavaScript code. The final statement is the export
+statement with the export default MyComponent. This statement exports the MyComponent
+class as the default export from this file. It allows other files in
+the project to import and use MyComponent by importing it using
+import MyComponent from MyComponent. State management is a crucial aspect of
+React class components. State represents the data the component needs to render and
+respond to user interactions. You can initialize the state in
+the constructor using this.state and update it using this.setState. You can manage the state in a class
+component as shown in the code. The code defines a class
+named EmployeeDetails that extends the component
+class provided by React. In the constructor, the component
+initializes its state with two properties, emp_id and emp_email,
+both set to empty strings. This initial state represents
+the initial values for the input fields where users can
+enter their employee ID and email. The component defines a method
+named handleInputChange to handle changes in the input fields. This method is triggered whenever a change
+event occurs in the input fields. When the input changes,
+the method extracts the name and value from the event target input
+field where the name corresponds to the state property to be updated emp_id or
+emp_email, and the value corresponds to
+the new value entered by the user. It then updates the component state by
+calling this.setState with an object containing the updated property and
+its new value. React automatically merges this
+object with the current state, updating only the specified property
+while keeping other properties unchanged. The render method delivers the component
+based on its current state. It dynamically binds the value
+attribute of the input fields to the corresponding
+state properties, emp_id and emp_email. This binding ensures the input fields display the current
+values stored in the component state. When the user interacts
+with the input fields, the displayed values update in
+real time as the state changes. When the Show Details button is clicked, an alert is triggered, displaying
+the current values of emp_id and emp_email. The alert directly accesses
+the state properties emp_id and emp_email to display their values. Since React manages the state, it ensures that the displayed values are
+always up to date with the current state. In React, props or properties send
+data from parent to child components. The child component receives the data
+from the parent component and can use it. The props thus received by the child
+component are read-only and unchangeable. They can also pass methods or
+functions from parent to child components. Let's look at a code example. The parent component is
+OrganizationDetails.jsx. Within the JSX, the prop value of
+employee_designation is declared within the class component, and is passed to the
+EmployeeDetails component as an attribute. The value of employee_designation, Project Manager, is passed
+as the value of the prop. Let's look at how the child class
+EmployeeDetails can access the data from the parent class
+OrganizationDetails. In the code, the employee_designation prop is accessed
+within the EmployeeDetails component by destructuring it from this.props in
+the render method as shown in the code. This method allows the child class to
+access the employee_designation prop passed from its parent
+class OrganizationDetails. In the JSX, the employee_designation
+is concatenated with the other values emp_id and emp_email. When clicking the Show Details button,
+an alert is triggered, displaying the values of emp_id,
+emp_email, and employee_designation. Event handling in React is responding
+to user interactions such as clicks, mouseover, mouse out, form submissions,
+and so on, within a React application. For example,
+event handling is done in the given code using the onClick property in JSX. An arrow function is called when
+clicking the Show Details button. The values of emp_id, emp_email, and
+employee_designation are used by this arrow function to create a warning
+message using template literals. This arrow code is run when
+the onClick attribute is set, showing the user alert message. This method lets you handle
+events directly in the JSX code, making adding user interactions
+to React components easier. In this video, you learned that
+a class component in React is a JavaScript class that extends the React.Component
+class from the React library. Class components encapsulate
+UI components and their behavior into
+reusable building blocks. Class components manage state,
+handle lifecycle events, and define component methods. State represents the data
+the component needs to render and respond to user interactions. In React, props or properties send
+data from parent to child components. Event handling in React is the process
+of responding to user interactions such as clicks, mouseover,
+mouseout, form submissions, and so on, within a React application. [MUSIC]
