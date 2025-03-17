@@ -1,0 +1,104 @@
+Welcome to Passing Data and
+States Between Components. After watching this video, you will be able to describe the lifecycle of
+React components, and explain how to pass data
+and states to components. Each React component has three
+phases in its lifecycle. Mounting is when the
+component is first created. Updating is when
+the component is rendered on a change of
+state or properties, props, and unmounting
+is when the component is removed from the document
+object model or DOM. In mounting, four methods
+are called in this order. The constructor method
+constructs the object. This may call the
+superconstructor with the props object if any specific
+props are being set. The getDerivedStateFromProps
+method is used only when the state depends
+on the changes to props. The render method is mandatory
+in a React component. This method makes the
+component appear. It must return a DOM element, and it can return only
+one root element which may or may not have many
+nested child elements. The componentDidMount method
+is invoked immediately after a component is mounted or
+inserted into the DOM tree. When the component app
+method is created, the constructor is invoked. The constructor first calls the super and then
+logs onto the console. Then the render
+method is invoked. This method logs onto the console and then
+renders the component. Lastly, the componentDidMount
+method is invoked. You can see this in the order of the console logs in
+the page rendered. In updating, five methods
+are called in this order. The getDerivedStateFromProps
+method is used only when the state depends
+on the changes to props. The shouldComponentUpdate
+method by default returns true. Every time there is
+a change in state, this method is called to check if the component
+should update. It is not called during the initial creation
+of the component. Make this method
+return false only if you don't want to render
+the changes in state. The render method is the same render method
+used in mounting, but here updates the component. The getSnapshotBeforeUpdate
+method is invoked just before the
+changes are rendered. It helps keep track
+of what has changed. Any value returned
+by this lifecycle, will be passed as a parameter to the componentDidUpdate
+method, and componentDidUpdate
+is invoked immediately after
+updating occurs. When the state of
+the component app is changed, it is updated. Consider an app component with a click counter
+maintained as the state. With the on click of the button, increment counter is invoked, increasing the
+counter state by one. Every time the state changes, the component is re-rendered, but this can be controlled. The shouldComponentUpdate
+method returns true by default. This method is
+rarely overridden. That is, its behavior
+is rarely changed. It usually inherits from the super-class and returns true. The render method logs onto the console and then
+renders the component. Lastly, the componentDidUpdate
+method is invoked. You can see this in the order of the Console logs in
+the page rendered. When a component is unmounted or removed from the DOM tree, the componentWillUnmount
+method is called. In this example, you have two components,
+AppInner and app. AppInner is rendered
+inside app with a state. ComponentDidMount of the app
+components mounting phase is handled and a timer for
+five seconds is started. After five seconds, a
+callback is invoked, changing the state of
+the inner component to a div element instead of
+the AppInner component, which removes or
+unmounts the component. Then componentWillUnmount
+of AppInner is called. You can see this in the order of the console logs in
+the page rendered. You can pass data between
+React components. Consider the relationship
+between components. Three types of relationships are parent to child using props, child to parent using callbacks, and between siblings
+using Redux. Redux is not within the
+scope of this module. Here, you have two
+classes, AppInner and app. The app component contains
+the AppInner component. App is the parent and
+AppInner is the child. App sets the property color
+and name for AppInner. The data is passed to
+the child every time a new value is entered in the
+input boxes in the parent. On the browser, when
+the component loads, you see the default name
+John and color green. When the values of color and name are changed in
+the parent component, they are passed to
+the child component, which is re-rendered. Here, you will pass data
+from child to parent. You pass a callback to
+the child as a property, and then through the callback
+pass data to the parent. Callback is a normal method, but is called at a later time
+when a condition is met. In this example, app is
+the parent component, which contains a child
+component, AppInner. In the parent, you pass the callback func1 as a
+property to the child. Func1 is a parent
+component function which takes a string argument. On componentDidMount
+of AppInner, you invoke the sendData method. This method invokes setInterval at a one
+second interval. setInterval takes a callback
+as a first parameter and a second interval in
+which the callback should be invoked as
+the second parameter. In this case, every one second, the current time is obtained
+and the method set as parentCallback is invoked
+passing the time. The method set as parentCallback is the
+parent class method which sets the state of the
+parent component, thereby re-rendering it. You can see the current
+time being passed from the child to the
+parent through callback. The parent is re-rendered
+every second. In this video, you learned that each React component has three
+phases in its lifecycle, mounting, updating,
+and unmounting. When a component is
+created or updated, methods are called
+in the same order, and you can pass data between components from parent to
+child using properties, from child to parent using callbacks, and between siblings.

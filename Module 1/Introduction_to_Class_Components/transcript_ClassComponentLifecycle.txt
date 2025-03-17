@@ -1,0 +1,56 @@
+Welcome to the Class
+Component Lifecycle. After watching this video, you will be able to explain
+a component's lifecycle, describe each phase, and list
+methods used in each phase. React class components
+have lifecycles, meaning they go through three
+phases over their lifetime. During each phase, React provides lifecycle
+methods you can access. A component's lifecycle
+has three main phases. These phases include mounting,
+updating, and unmounting. In the mounting phase, you instantiate the object using the component class constructor and assign it a default state. In the update phase, the states and props of a component change
+due to user events. Changes can also occur within the component due to a
+change in the back end. The component re-renders
+in this phase. Finally, there's unmounting. As the name suggests, the component is
+removed from the page. The component
+lifecycle refers to the component's
+relationship with the DOM. The component
+lifecycle starts when components are created
+and mounted on the DOM. Once mounted, React updates the DOM according to
+the component logic. Then the components die when the system unmounts
+them from the DOM. React automatically calls
+the responsible method according to its phase. Although React automatically
+invokes these methods, you can manipulate them to gain more control over
+component behavior. Two of the methods used
+when the component mounts include componentWillMount
+and componentDidMount. The render method is also
+called for the first time. The system invokes the
+componentWillMount method prior to the first execution
+of the render function. The system invokes the
+componentDidMount method right after the render function executes for the first time. Methods specific to
+the update phase include
+getDerivedStateFromProps, getSnapshotBeforeUpdate,
+and componentDidUpdate. You use the
+getDerivedStateFromProps method if you have updated props and want to reflect that in
+the component state. Another method,
+getSnapshotBeforeUpdate gives you access to the component's previous props and
+state before updating. The last method invoked in this phase is
+componentDidUpdate. This method allows you
+to create side effects, such as sending
+network requests or calling the
+this.SetState method. You will also call
+the render method, but this method does not exclusively belong
+to this phase. The render method in this phase updates the
+component in the UI. The unmounting phase has only one lifecycle method,
+componentWillUnmount. The system invokes this function before removing the
+component from the page, denoting the end
+of its lifecycle. This method performs
+necessary cleanup such as canceling network requests
+or removing listeners. In this video, you learned that a component's lifecycle refers to its relationship
+with the DOM. The three phases
+in the lifecycle include mount,
+update, and unmount. In the mount phase, the methods include componentWillMount
+and componentDidMount. Methods invoked during
+the update phase include
+getDerivedStateFromProps, getSnapshotBeforeUpdate,
+and componentDidUpdate. In the final unmount phase, React calls the
+componentWillUnmount method. The render method is called in both the mount and
+update phases.

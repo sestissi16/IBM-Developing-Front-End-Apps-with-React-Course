@@ -1,0 +1,59 @@
+[MUSIC] Welcome to Introduction to States. After watching this video, you will be
+able explain the use of states in class components, explain the use of props
+in class components, compare and contrast states and props. States allow you to change
+data in an application. In class components, the state object
+includes key value pairs that specify different types of data you want
+to track in the application. React class components have
+a built-in state object. You can store property values that belong
+to the component in the state object. A change in the state object
+re-renders the component. React components have two types of state
+in an application, local and shared. Local states live in
+a single component and cannot be accessed by other components. A component that shows and
+hides information would use a local state. A shared state can be accessed and
+changed by more than one component. A list of orders in an ordering
+application would likely be a shared state. A class component state is a plain
+JavaScript object used by React to represent information about
+the component's current situation. The heart of every react
+component is its state. States determine how a component
+renders and behaves. A state allows you to create dynamic and interactive components.
+In class components, the state is an instance of the component
+class with a set of observable properties. These properties control
+the behavior of the component. You manage and
+preserve the state in the React component. In other words, you control the state of
+a component with an object that contains information that may change
+over the component's lifecycle. If your component changes or
+needs to change during user interaction, you use its state. A state allows you to track
+the change in the component. This includes updates to forms,
+buttons, and timers. For example, consider a simple
+application with a button and a counter. When the user presses the button, the counter variable increases
+by one. As the count changes, you hold that value in the state. This code example shows how you can
+create a test component that contains the state with attributes such as ID,
+name, and age. The component's render function returns
+the state attributes name and age. Props is short for properties. You use props to pass
+data between components. React's data between components
+flows from parent to child only. Props are read-only components. Prop objects store the value
+of attributes of a tag and work like the HTML attributes. They behave like arguments to
+functions that you can pass from one component to another. Props are immutable and cannot be
+modified from inside the component. If a variable gets
+modified during a process, it should belong to the component's state. You can also use props to allow child
+components to access methods defined in the parent component. You should manage the state
+in the parent component. The child component does not
+have a state of its own. Let's look at an example with props. This code creates a class named
+TestComponent that extends the React component. It renders props that
+accept the name attribute. Then you can pass props to the test
+component that accepts different names like John and Jill. Let's compare states and props. You cannot access or modify the state of
+a component outside of the component. Props, on the other hand, make components reusable by allowing
+a child to receive data from its parent. Components create and
+manage their own data with their state, whereas they receive data from outside with props. You use a state to manage data
+and props to pass data between components. You can modify state data
+within the component, but cannot access it outside of the component. Data from props is read-only; you
+cannot modify using another component. You can modify a state using the setState
+method, whereas you can only pass props from a parent component to
+a child in a unidirectional flow. In this video, you learned that a state
+is a JavaScript object that represents information about the component's
+current situation. The state allows you to create
+interactive components. Any changes in the state data
+cause the component to re-render. You use props to pass data between
+components in a unidirectional flow from parent to child. Components create and
+manage their own data with their state, whereas they receive data
+from outside using props.
